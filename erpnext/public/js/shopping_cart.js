@@ -38,7 +38,7 @@ $.extend(shopping_cart, {
 			if(localStorage) {
 				localStorage.setItem("last_visited", window.location.pathname);
 			}
-			window.location.href = "/login";
+			window.location.href = "/contact";
 		} else {
 			return frappe.call({
 				type: "POST",
